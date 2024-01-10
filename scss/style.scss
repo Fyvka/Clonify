@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+}
+
+aside {
+   display: block;
+}
+
+html,
+body {
+   font-family: "Inter";
+   overflow-x: hidden;
+   min-width: 320px;
+   font-size: 22px;
+   color: #ffffff;
+   align-items: center;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+html {
+   width: 100%;
+   background-color: #ffffff;
+}
+
+body {
+   width: 100%;
+   margin: 0 auto;
+}
+
+html.lock {
+   overflow-y: hidden;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   font-family: "Inter";
+   cursor: pointer;
+   transition-duration: 0.8s ease 0.1s;
+   border: none;
+}
+
+button::-moz-focus-inner {
+   border: 0;
+   padding: 0;
+}
+
+.button {
+   cursor: pointer;
+}
+
+.button::-moz-focus-inner {
+   border: 0;
+   padding: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+   text-align: center;
+   transition-duration: 0.1s;
+   color: #282828;
+   cursor: pointer;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+.tt {
+   font-style: normal;
+   font-size: 20px;
+   font-weight: 600;
+   color: #282828;
+   text-align: left;
+   cursor: default;
+}
+
+.hh {
+   font-style: normal;
+   font-size: 16px;
+   font-weight: 400;
+   color: #282828;
+   text-align: left;
+   cursor: default;
+}
+
+.header {
+   height: 70px;
+   font-weight: 600;
+   font-size: 14px;
+}
+
+.navbar-toggler {
+   color: #00000000;
+}
+
+.navbar-toggler-icon {
+   opacity: 1;
+   color: #000;
+   padding-top: 5px;
+   font-size: 38px;
+   font-weight: 400;
+}
+
+.nav-link{
+   font-size: 14px;
+   font-weight: 600;
+   font-family: "Inter";
+   color: #282828;
+}
+
+.collapse {
+   align-items: end;
+}
+
+.main {
+   &__text {
+      height: auto;
+   }
+
+   &__tt {
+      font-size: 54px;
+      letter-spacing: -1px;
+      line-height: 62px;
+      max-width: 450px;
+   }
+}
+
+
+.cards {
+
+   &__hh {
+      color: #5F6980;
+   }
+}
+
+.acc-tt {
+   font-size: 38px;
+   font-weight: 600;
+}
+
+.acc-hh {
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.accordion-button {
+   stroke: 1px;
+}
+
+.btn {
+   font-family: "Inter";
+   font-size: 16px;
+   font-weight: 600;
+   color: #000;
+   background: #000;
+}
+
+@media (max-width: 420px) {
+
+   .main {
+      &__tt {
+         font-size: 38px;
+         letter-spacing: -1px;
+         line-height: 46px;
+         max-width: 280px;
+      }
+   }
+
+}
